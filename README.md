@@ -49,7 +49,7 @@ sgd=SGDRegressor(max_iter=1000, tol=1e-3)
 
 multi_output_sgd=MultiOutputRegressor(sgd)
 multi_output_sgd.fit(X_train,Y_train)
-
+```
 
 ![image](https://github.com/user-attachments/assets/512773e4-7713-41ba-b8c2-1b6f0ff02058)
 
